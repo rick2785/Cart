@@ -11,6 +11,10 @@
 		09371A842548DC8200A8347F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09371A832548DC8200A8347F /* ContentView.swift */; };
 		09371A862548DC8400A8347F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 09371A852548DC8400A8347F /* Assets.xcassets */; };
 		09371A892548DC8400A8347F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 09371A882548DC8400A8347F /* Preview Assets.xcassets */; };
+		09371A942548E10B00A8347F /* CartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09371A932548E10B00A8347F /* CartView.swift */; };
+		09371A982548E21100A8347F /* CartViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09371A972548E21100A8347F /* CartViewModel.swift */; };
+		09371A9C2548E23200A8347F /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09371A9B2548E23200A8347F /* Item.swift */; };
+		09371AA02548E4B100A8347F /* ItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09371A9F2548E4B100A8347F /* ItemView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +24,10 @@
 		09371A852548DC8400A8347F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		09371A882548DC8400A8347F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		09371A8A2548DC8400A8347F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		09371A932548E10B00A8347F /* CartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartView.swift; sourceTree = "<group>"; };
+		09371A972548E21100A8347F /* CartViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartViewModel.swift; sourceTree = "<group>"; };
+		09371A9B2548E23200A8347F /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		09371A9F2548E4B100A8347F /* ItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +60,9 @@
 		09371A802548DC8200A8347F /* Cart */ = {
 			isa = PBXGroup;
 			children = (
+				09371A9A2548E22A00A8347F /* Model */,
+				09371A922548E10100A8347F /* ViewModel */,
+				09371A912548E0FB00A8347F /* View */,
 				09371A812548DC8200A8347F /* CartApp.swift */,
 				09371A832548DC8200A8347F /* ContentView.swift */,
 				09371A852548DC8400A8347F /* Assets.xcassets */,
@@ -67,6 +78,31 @@
 				09371A882548DC8400A8347F /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		09371A912548E0FB00A8347F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				09371A932548E10B00A8347F /* CartView.swift */,
+				09371A9F2548E4B100A8347F /* ItemView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		09371A922548E10100A8347F /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				09371A972548E21100A8347F /* CartViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		09371A9A2548E22A00A8347F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				09371A9B2548E23200A8347F /* Item.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,6 +174,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				09371A9C2548E23200A8347F /* Item.swift in Sources */,
+				09371AA02548E4B100A8347F /* ItemView.swift in Sources */,
+				09371A982548E21100A8347F /* CartViewModel.swift in Sources */,
+				09371A942548E10B00A8347F /* CartView.swift in Sources */,
 				09371A842548DC8200A8347F /* ContentView.swift in Sources */,
 				09371A822548DC8200A8347F /* CartApp.swift in Sources */,
 			);
